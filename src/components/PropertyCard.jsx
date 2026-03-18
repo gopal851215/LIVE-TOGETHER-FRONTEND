@@ -15,9 +15,9 @@ const PropertyCard = ({ property }) => {
       ? imageSource
       : `${import.meta.env.VITE_API_URL.replace(/\/api$/, "")}/${imageSource?.replace(/^\//, "") || ""}`;
 
-  const handleImageError = (e) => {
+const handleImageError = (e) => {
     e.currentTarget.onerror = null;
-    e.currentTarget.src = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjIyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjZm2g5Ii8+PHRleHQgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE0IiBmaWxsPSIjOUY5RjBEMCIgeD0iNTAlIiB5PSI5MCUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGR5PSIuM2VtIj5ObyBJbWFnZTwvdGV4dD48L3N2Zz4=";
+    e.currentTarget.src = '/vite.svg';
   };
 
   return (
