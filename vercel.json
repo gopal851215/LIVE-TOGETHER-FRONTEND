@@ -7,11 +7,11 @@
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "https://live-together-backend-git-main-gopalkumar01.vercel.app/api/$1"
+"destination": "https://live-together-backend-2.onrender.com/api/$1"
     },
     {
       "source": "/uploads/(.*)",
-      "destination": "https://live-together-backend-git-main-gopalkumar01.vercel.app/uploads/$1"
+"destination": "https://live-together-backend-2.onrender.com/uploads/$1"
     },
     {
       "source": "/(.*)",

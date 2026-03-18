@@ -119,5 +119,7 @@ const handleImageError = (e) => {
   );
 };
 
+
+
 export default PropertyCard;
 
